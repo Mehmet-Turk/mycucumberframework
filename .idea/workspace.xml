@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7afbc825-2a7d-4d01-b16b-a005916a49a3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bOyUaqW9Lx4vHMEXDlSpRgxkX2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mycucumberframework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.Runner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Runner" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7afbc825-2a7d-4d01-b16b-a005916a49a3" name="Default Changelist" comment="" />
+      <created>1588517450410</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588517450410</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="23" key="#Custom_Plugin_Repositories" timestamp="1588524258250">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="23" key="#Custom_Plugin_Repositories/0.0.1366.728@0.0.1366.728" timestamp="1588524258250" />
+    <state x="275" y="23" key="#Plugins" timestamp="1588525348443">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="23" key="#Plugins/0.0.1366.728@0.0.1366.728" timestamp="1588525348443" />
+    <state x="411" y="168" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588520611746">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="411" y="168" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1588520611746" />
+    <state width="1323" height="190" key="GridCell.Tab.0.bottom" timestamp="1588539847311">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="190" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588539847311" />
+    <state width="1323" height="190" key="GridCell.Tab.0.center" timestamp="1588539847311">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="190" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588539847311" />
+    <state width="1323" height="190" key="GridCell.Tab.0.left" timestamp="1588539847311">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="190" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588539847311" />
+    <state width="1323" height="190" key="GridCell.Tab.0.right" timestamp="1588539847311">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="190" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588539847311" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1588525698641">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588525698641" />
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1588523594015">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1588523594015" />
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1588524006157">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1588524006157" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1588529705112">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1588529705112" />
+    <state x="65" y="60" key="new project wizard" timestamp="1588522465962">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="60" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1588522465962" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1588525319803">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1588525319803" />
+  </component>
+</project>
