@@ -1,55 +1,174 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/fhctriplogin.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/FE1200_US2500_google_search_data_tables.feature");
 formatter.feature({
-  "name": "Fhc Login",
+  "name": "Single data table",
   "description": "",
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@fhcLogin"
+      "name": "@dataTable"
     }
   ]
 });
-formatter.background({
-  "name": "user is on the fhc login page",
+formatter.scenarioOutline({
+  "name": "TC01_google search test",
   "description": "",
-  "keyword": "Background"
+  "keyword": "Scenario Outline"
 });
 formatter.step({
-  "name": "user is on the fhc login page",
+  "name": "user is on the google page",
+  "keyword": "Given "
+});
+formatter.step({
+  "name": "user searches for \"\u003cvalue\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "verify the result has \"\u003cvalue\u003e\"",
+  "keyword": "Then "
+});
+formatter.examples({
+  "name": "Test Data",
+  "description": "",
+  "keyword": "Examples",
+  "rows": [
+    {
+      "cells": [
+        "value"
+      ]
+    },
+    {
+      "cells": [
+        "iphone"
+      ]
+    },
+    {
+      "cells": [
+        "s det"
+      ]
+    },
+    {
+      "cells": [
+        "qa"
+      ]
+    }
+  ]
+});
+formatter.scenario({
+  "name": "TC01_google search test",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@dataTable"
+    }
+  ]
+});
+formatter.step({
+  "name": "user is on the google page",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "stepdefinitions.FhcLoginStepsDefinitions.user_is_on_the_fhc_login_page()"
+  "location": "stepdefinitions.GoogleSearchStepDefinitions.user_is_on_the_google_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user searches for \"iphone\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepdefinitions.GoogleSearchStepDefinitions.user_searches_for(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "verify the result has \"iphone\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepdefinitions.GoogleSearchStepDefinitions.verify_the_result_has(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Positive test User should login the page with valid credentials",
+  "name": "TC01_google search test",
   "description": "",
-  "keyword": "Scenario",
+  "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@fhcLogin"
+      "name": "@dataTable"
     }
   ]
 });
 formatter.step({
-  "name": "user enters the valid username and password",
+  "name": "user is on the google page",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "stepdefinitions.FhcLoginStepsDefinitions.user_enters_the_valid_username_and_password()"
+  "location": "stepdefinitions.GoogleSearchStepDefinitions.user_is_on_the_google_page()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "verify the login is successful",
+  "name": "user searches for \"s det\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepdefinitions.GoogleSearchStepDefinitions.user_searches_for(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "verify the result has \"s det\"",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "stepdefinitions.FhcLoginStepsDefinitions.verify_the_login_is_successful()"
+  "location": "stepdefinitions.GoogleSearchStepDefinitions.verify_the_result_has(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "TC01_google search test",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@dataTable"
+    }
+  ]
+});
+formatter.step({
+  "name": "user is on the google page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "stepdefinitions.GoogleSearchStepDefinitions.user_is_on_the_google_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user searches for \"qa\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepdefinitions.GoogleSearchStepDefinitions.user_searches_for(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "verify the result has \"qa\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepdefinitions.GoogleSearchStepDefinitions.verify_the_result_has(java.lang.String)"
 });
 formatter.result({
   "status": "passed"

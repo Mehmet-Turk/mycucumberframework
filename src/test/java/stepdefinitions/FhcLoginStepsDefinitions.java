@@ -9,8 +9,8 @@ import utilities.ConfigurationReader;
 import utilities.Driver;
 
 public class FhcLoginStepsDefinitions {
-    @Given("user is on the fhc login page")
-    public void user_is_on_the_fhc_login_page() {
+    @Given("user is on the fhctrip login page")
+    public void user_is_on_the_fhctrip_login_page() {
         Driver.getDriver().get(ConfigurationReader.getProperty("fhc_login_url"));
     }
 

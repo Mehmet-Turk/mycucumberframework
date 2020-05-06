@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7afbc825-2a7d-4d01-b16b-a005916a49a3" name="Default Changelist" comment="" />
+    <list default="true" id="7afbc825-2a7d-4d01-b16b-a005916a49a3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/FhcLoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/GoogleSearchPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/FhcLoginSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/FE1200_US2500_google_search_data_tables.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Parameterizing.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fhclogin.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/FhcLoginStepsDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/FhcLoginStepsDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/GoogleSearchStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/GoogleSearchStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/fhctriplogin.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/fhctriplogin.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/fhctriplogin.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/fhctriplogin.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/FhcLoginStepsDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinitions/FhcLoginStepsDefinitions.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +30,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,6 +41,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1bOyUaqW9Lx4vHMEXDlSpRgxkX2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -32,7 +52,7 @@
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager">
     <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -78,30 +98,34 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="23" key="#Plugins/0.0.1366.728@0.0.1366.728" timestamp="1588525348443" />
+    <state x="413" y="120" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1588725725675">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="120" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1588725725675" />
     <state x="411" y="168" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588520611746">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="411" y="168" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1588520611746" />
-    <state width="1323" height="190" key="GridCell.Tab.0.bottom" timestamp="1588539847311">
+    <state width="1323" height="220" key="GridCell.Tab.0.bottom" timestamp="1588732427051">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="190" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588539847311" />
-    <state width="1323" height="190" key="GridCell.Tab.0.center" timestamp="1588539847311">
+    <state width="1323" height="220" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588732427051" />
+    <state width="1323" height="220" key="GridCell.Tab.0.center" timestamp="1588732427051">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="190" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588539847311" />
-    <state width="1323" height="190" key="GridCell.Tab.0.left" timestamp="1588539847311">
+    <state width="1323" height="220" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588732427051" />
+    <state width="1323" height="220" key="GridCell.Tab.0.left" timestamp="1588732427051">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="190" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588539847311" />
-    <state width="1323" height="190" key="GridCell.Tab.0.right" timestamp="1588539847311">
+    <state width="1323" height="220" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588732427051" />
+    <state width="1323" height="220" key="GridCell.Tab.0.right" timestamp="1588732427051">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="190" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588539847311" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1588525698641">
+    <state width="1323" height="220" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588732427051" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1588720241825">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588525698641" />
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588720241825" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1588523594015">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -110,10 +134,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1588524006157" />
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1588529705112">
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1588720208468">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1588529705112" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1588720208468" />
     <state x="65" y="60" key="new project wizard" timestamp="1588522465962">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

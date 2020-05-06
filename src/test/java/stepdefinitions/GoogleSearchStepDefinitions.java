@@ -6,9 +6,11 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
+import pages.GoogleSearchPage;
 import utilities.Driver;
 
 public class GoogleSearchStepDefinitions {
+    GoogleSearchPage googleSearchPage = new GoogleSearchPage();
 
     @Given("user is on the google page")
     public void user_is_on_the_google_page() {
@@ -41,6 +43,19 @@ public class GoogleSearchStepDefinitions {
     public void verify_the_result_has_teapot() {
         Assert.assertTrue(Driver.getDriver().getTitle().toLowerCase().contains("tea pot"));
 
+    }
+    @Given("user searches for {string}")
+    public void user_searches_for(String string) {
+        googleSearchPage.searchBox.sendKeys(string + Keys.ENTER);
+    }
+
+
+
+
+    @Then("verify the result has {string}")
+    public void verify_the_result_has(String string) {
+        System.out.println(Driver.getDriver().getTitle());
+        Assert.assertTrue(Driver.getDriver().getTitle().toLowerCase().contains(string));
     }
 
 

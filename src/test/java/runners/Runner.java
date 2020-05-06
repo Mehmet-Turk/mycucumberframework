@@ -11,8 +11,8 @@ import org.junit.runner.RunWith;
         features = "src\\test\\resources\\features",
 //        step definitions folder
         glue = "stepdefinitions",
-        tags = "@fhcLogin",
-        dryRun = false   //if you do not want to run all codes make it true and get step definitions
+        tags = "@dataTable",
+        dryRun = false //if you do not want to run all codes make it true and get step definitions
 )
 public class Runner {
 }
