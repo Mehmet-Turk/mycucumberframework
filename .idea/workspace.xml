@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7afbc825-2a7d-4d01-b16b-a005916a49a3" name="Default Changelist" comment="" />
+    <list default="true" id="7afbc825-2a7d-4d01-b16b-a005916a49a3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/DataTablesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/ScenarioOutlineExampleSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/ScenarioOutlineExample.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/ScenarioOutlineExample1.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/ScenarioOutlineExample2.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/Runner.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,22 +100,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="411" y="168" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1588520611746" />
-    <state width="1323" height="220" key="GridCell.Tab.0.bottom" timestamp="1588732463329">
+    <state width="1323" height="220" key="GridCell.Tab.0.bottom" timestamp="1588816755957">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588732463329" />
-    <state width="1323" height="220" key="GridCell.Tab.0.center" timestamp="1588732463328">
+    <state width="1323" height="220" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588816755957" />
+    <state width="1323" height="220" key="GridCell.Tab.0.center" timestamp="1588816755957">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588732463328" />
-    <state width="1323" height="220" key="GridCell.Tab.0.left" timestamp="1588732463328">
+    <state width="1323" height="220" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588816755957" />
+    <state width="1323" height="220" key="GridCell.Tab.0.left" timestamp="1588816755957">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588732463328" />
-    <state width="1323" height="220" key="GridCell.Tab.0.right" timestamp="1588732463329">
+    <state width="1323" height="220" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588816755957" />
+    <state width="1323" height="220" key="GridCell.Tab.0.right" timestamp="1588816755957">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588732463329" />
+    <state width="1323" height="220" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588816755957" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1588720241825">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -118,10 +128,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1588524006157" />
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1588720208468">
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1588806684731">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1588720208468" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1588806684731" />
     <state x="65" y="60" key="new project wizard" timestamp="1588522465962">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
