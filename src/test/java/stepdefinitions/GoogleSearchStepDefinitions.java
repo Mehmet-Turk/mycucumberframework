@@ -24,7 +24,7 @@ public class GoogleSearchStepDefinitions {
 
     @Then("verify the result has iphone")
     public void verify_the_result_has_iphone() {
-        Assert.assertTrue(Driver.getDriver().getTitle().toLowerCase().contains("iphone"));
+        Assert.assertTrue(Driver.getDriver().getTitle().toLowerCase().contains("iphne"));
     }
 
     @Given("user clears the searchbox")

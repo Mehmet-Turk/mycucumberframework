@@ -1,3 +1,4 @@
+@googlesearch
 Feature:Google search
   Background: User is on the google page
   Given user is on the google page

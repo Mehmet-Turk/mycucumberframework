@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7afbc825-2a7d-4d01-b16b-a005916a49a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/DataTablesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/ScenarioOutlineExampleSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/ScenarioOutlineExample.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/ScenarioOutlineExample1.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/ScenarioOutlineExample2.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Hooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/GoogleSearchStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/GoogleSearchStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/firstfeaturefile.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/firstfeaturefile.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/firstfeaturefile.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/firstfeaturefile.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/runners/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/GoogleSearchStepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinitions/GoogleSearchStepDefinitions.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +43,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/io/cucumber/cucumber-java/5.7.0/cucumber-java-5.7.0.jar!/" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -88,10 +89,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="23" key="#Custom_Plugin_Repositories/0.0.1366.728@0.0.1366.728" timestamp="1588524258250" />
-    <state x="275" y="23" key="#Plugins" timestamp="1588525348443">
+    <state x="275" y="23" key="#Plugins" timestamp="1589120177080">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="23" key="#Plugins/0.0.1366.728@0.0.1366.728" timestamp="1588525348443" />
+    <state x="275" y="23" key="#Plugins/0.0.1366.728@0.0.1366.728" timestamp="1589120177080" />
     <state x="413" y="120" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1588725725675">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -100,26 +101,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="411" y="168" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1588520611746" />
-    <state width="1323" height="220" key="GridCell.Tab.0.bottom" timestamp="1588816755957">
+    <state x="463" y="106" key="FileChooserDialogImpl" timestamp="1589120892209">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588816755957" />
-    <state width="1323" height="220" key="GridCell.Tab.0.center" timestamp="1588816755957">
+    <state x="463" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1589120892209" />
+    <state width="1323" height="164" key="GridCell.Tab.0.bottom" timestamp="1589134243006">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588816755957" />
-    <state width="1323" height="220" key="GridCell.Tab.0.left" timestamp="1588816755957">
+    <state width="1323" height="164" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589134243006" />
+    <state width="1323" height="164" key="GridCell.Tab.0.center" timestamp="1589134243006">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588816755957" />
-    <state width="1323" height="220" key="GridCell.Tab.0.right" timestamp="1588816755957">
+    <state width="1323" height="164" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589134243006" />
+    <state width="1323" height="164" key="GridCell.Tab.0.left" timestamp="1589134243006">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588816755957" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1588720241825">
+    <state width="1323" height="164" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589134243006" />
+    <state width="1323" height="164" key="GridCell.Tab.0.right" timestamp="1589134243006">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588720241825" />
+    <state width="1323" height="164" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589134243006" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1589124553564">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1589124553564" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1588523594015">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -128,17 +133,17 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1588524006157" />
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1588806684731">
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1589119539086">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1588806684731" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1589119539086" />
     <state x="65" y="60" key="new project wizard" timestamp="1588522465962">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="65" y="60" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1588522465962" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1588525319803">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1589120157397">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1588525319803" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1589120157397" />
   </component>
 </project>

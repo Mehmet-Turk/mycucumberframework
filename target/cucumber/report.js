@@ -1,365 +1,125 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/ScenarioOutlineExample2.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/firstfeaturefile.feature");
 formatter.feature({
-  "name": "scenario outline example",
+  "name": "Google search",
   "description": "",
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@datatables5"
+      "name": "@googlesearch"
     }
   ]
 });
-formatter.scenarioOutline({
-  "name": "testing the data tables web page",
+formatter.background({
+  "name": "User is on the google page",
   "description": "",
-  "keyword": "Scenario Outline"
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
-  "name": "user is ont the datatables home page",
-  "keyword": "Given "
-});
-formatter.step({
-  "name": "user clicks on new button",
-  "keyword": "When "
-});
-formatter.step({
-  "name": "user enters first name \"\u003cfirst name\u003e\"",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "user enters last name \"\u003clast name\u003e\"",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "user enters position \"\u003cposition\u003e\"",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "user enters office \"\u003coffice\u003e\"",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "user enters extension \"\u003cextension\u003e\"",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "user enters start date \"\u003cstartDate\u003e\"",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "user enters salary \"\u003csalary\u003e\"",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "user clicks create button",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "user enters fist name \"\u003cfirst name\u003e\" on the search box",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "user should see name \"\u003cfirst name\u003e\" on the top of the table",
-  "keyword": "Then "
-});
-formatter.examples({
-  "name": "Test data for datatables",
-  "description": "",
-  "keyword": "Examples",
-  "rows": [
-    {
-      "cells": [
-        "first name",
-        "last name",
-        "position",
-        "office",
-        "extension",
-        "startDate",
-        "salary"
-      ]
-    },
-    {
-      "cells": [
-        "Asaf taha",
-        "Yilmaz",
-        "sdet",
-        "london",
-        "212",
-        "2020-06-01",
-        "60000"
-      ]
-    },
-    {
-      "cells": [
-        "Sky",
-        "Walker",
-        "Manager",
-        "DC",
-        "221",
-        "2020-04-01",
-        "220000"
-      ]
-    }
-  ]
-});
-formatter.scenario({
-  "name": "testing the data tables web page",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@datatables5"
-    }
-  ]
-});
-formatter.step({
-  "name": "user is ont the datatables home page",
+  "name": "user is on the google page",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "stepdefinitions.ScenarioOutlineExampleSteps.user_is_ont_the_datatables_home_page()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user clicks on new button",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "stepdefinitions.ScenarioOutlineExampleSteps.user_clicks_on_new_button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user enters first name \"Asaf taha\"",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stepdefinitions.ScenarioOutlineExampleSteps.user_enters_first_name(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user enters last name \"Yilmaz\"",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stepdefinitions.ScenarioOutlineExampleSteps.user_enters_last_name(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user enters position \"sdet\"",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stepdefinitions.ScenarioOutlineExampleSteps.user_enters_position(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user enters office \"london\"",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stepdefinitions.ScenarioOutlineExampleSteps.user_enters_office(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user enters extension \"212\"",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stepdefinitions.ScenarioOutlineExampleSteps.user_enters_extension(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user enters start date \"2020-06-01\"",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stepdefinitions.ScenarioOutlineExampleSteps.user_enters_start_date(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user enters salary \"60000\"",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stepdefinitions.ScenarioOutlineExampleSteps.user_enters_salary(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user clicks create button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stepdefinitions.ScenarioOutlineExampleSteps.user_clicks_create_button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user enters fist name \"Asaf taha\" on the search box",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stepdefinitions.ScenarioOutlineExampleSteps.user_enters_fist_name_on_the_search_box(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user should see name \"Asaf taha\" on the top of the table",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "stepdefinitions.ScenarioOutlineExampleSteps.user_should_see_name_on_the_top_of_the_table(java.lang.String)"
+  "location": "stepdefinitions.GoogleSearchStepDefinitions.user_is_on_the_google_page()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "testing the data tables web page",
+  "name": "User searches iphone on google",
   "description": "",
-  "keyword": "Scenario Outline",
+  "keyword": "Scenario",
   "tags": [
     {
-      "name": "@datatables5"
+      "name": "@googlesearch"
+    },
+    {
+      "name": "@iphone"
     }
   ]
 });
 formatter.step({
-  "name": "user is ont the datatables home page",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "stepdefinitions.ScenarioOutlineExampleSteps.user_is_ont_the_datatables_home_page()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user clicks on new button",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "stepdefinitions.ScenarioOutlineExampleSteps.user_clicks_on_new_button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user enters first name \"Sky\"",
+  "name": "user searches for iphone",
   "keyword": "And "
 });
 formatter.match({
-  "location": "stepdefinitions.ScenarioOutlineExampleSteps.user_enters_first_name(java.lang.String)"
+  "location": "stepdefinitions.GoogleSearchStepDefinitions.user_searches_for_iphone()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user enters last name \"Walker\"",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stepdefinitions.ScenarioOutlineExampleSteps.user_enters_last_name(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user enters position \"Manager\"",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stepdefinitions.ScenarioOutlineExampleSteps.user_enters_position(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user enters office \"DC\"",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stepdefinitions.ScenarioOutlineExampleSteps.user_enters_office(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user enters extension \"221\"",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stepdefinitions.ScenarioOutlineExampleSteps.user_enters_extension(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user enters start date \"2020-04-01\"",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stepdefinitions.ScenarioOutlineExampleSteps.user_enters_start_date(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user enters salary \"220000\"",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stepdefinitions.ScenarioOutlineExampleSteps.user_enters_salary(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user clicks create button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stepdefinitions.ScenarioOutlineExampleSteps.user_clicks_create_button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user enters fist name \"Sky\" on the search box",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stepdefinitions.ScenarioOutlineExampleSteps.user_enters_fist_name_on_the_search_box(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user should see name \"Sky\" on the top of the table",
+  "name": "verify the result has iphone",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "stepdefinitions.ScenarioOutlineExampleSteps.user_should_see_name_on_the_top_of_the_table(java.lang.String)"
+  "location": "stepdefinitions.GoogleSearchStepDefinitions.verify_the_result_has_iphone()"
 });
 formatter.result({
+  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat stepdefinitions.GoogleSearchStepDefinitions.verify_the_result_has_iphone(GoogleSearchStepDefinitions.java:27)\r\n\tat ✽.verify the result has iphone(file:///C:/Users/user/IdeaProjects/mycucumberframework/src/test/resources/features/firstfeaturefile.feature:10)\r\n",
+  "status": "failed"
+});
+formatter.embedding("image/png", "embedded0.png", null);
+formatter.after({
+  "status": "passed"
+});
+formatter.background({
+  "name": "User is on the google page",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user is on the google page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "stepdefinitions.GoogleSearchStepDefinitions.user_is_on_the_google_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "User searches tea pot on google",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@googlesearch"
+    },
+    {
+      "name": "@teapot"
+    }
+  ]
+});
+formatter.step({
+  "name": "user searches for teapot",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepdefinitions.GoogleSearchStepDefinitions.user_searches_for_teapot()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "verify the result has teapot",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepdefinitions.GoogleSearchStepDefinitions.verify_the_result_has_teapot()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
   "status": "passed"
 });
 });
