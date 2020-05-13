@@ -1,124 +1,59 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/firstfeaturefile.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/FluentWaitDemo.feature");
 formatter.feature({
-  "name": "Google search",
+  "name": "Fluent wait demo",
   "description": "",
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@googlesearch"
+      "name": "@wip"
     }
   ]
 });
-formatter.background({
-  "name": "User is on the google page",
-  "description": "",
-  "keyword": "Background"
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user is on the google page",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "stepdefinitions.GoogleSearchStepDefinitions.user_is_on_the_google_page()"
-});
-formatter.result({
-  "status": "passed"
-});
 formatter.scenario({
-  "name": "User searches iphone on google",
+  "name": "Fluent wait example",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@googlesearch"
-    },
-    {
-      "name": "@iphone"
+      "name": "@wip"
     }
   ]
 });
+formatter.before({
+  "status": "passed"
+});
 formatter.step({
-  "name": "user searches for iphone",
-  "keyword": "And "
+  "name": "user is on the demo page",
+  "keyword": "Given "
 });
 formatter.match({
-  "location": "stepdefinitions.GoogleSearchStepDefinitions.user_searches_for_iphone()"
+  "location": "stepdefinitions.ExplicitWaitStepDefinitions.user_is_on_the_demo_page()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "verify the result has iphone",
-  "keyword": "Then "
+  "name": "user clicks on the Start button",
+  "keyword": "And "
 });
 formatter.match({
-  "location": "stepdefinitions.GoogleSearchStepDefinitions.verify_the_result_has_iphone()"
+  "location": "stepdefinitions.ExplicitWaitStepDefinitions.user_clicks_on_the_Start_button()"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat stepdefinitions.GoogleSearchStepDefinitions.verify_the_result_has_iphone(GoogleSearchStepDefinitions.java:27)\r\n\tat ✽.verify the result has iphone(file:///C:/Users/user/IdeaProjects/mycucumberframework/src/test/resources/features/firstfeaturefile.feature:10)\r\n",
+  "status": "passed"
+});
+formatter.step({
+  "name": "user fluently waits until the page loads and verify the text message",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepdefinitions.ExplicitWaitStepDefinitions.user_fluently_waits_until_the_page_loads_and_verify_the_text_message()"
+});
+formatter.result({
+  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat stepdefinitions.ExplicitWaitStepDefinitions.user_fluently_waits_until_the_page_loads_and_verify_the_text_message(ExplicitWaitStepDefinitions.java:50)\r\n\tat ✽.user fluently waits until the page loads and verify the text message(file:///C:/Users/user/IdeaProjects/mycucumberframework/src/test/resources/features/FluentWaitDemo.feature:6)\r\n",
   "status": "failed"
 });
 formatter.embedding("image/png", "embedded0.png", null);
-formatter.after({
-  "status": "passed"
-});
-formatter.background({
-  "name": "User is on the google page",
-  "description": "",
-  "keyword": "Background"
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user is on the google page",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "stepdefinitions.GoogleSearchStepDefinitions.user_is_on_the_google_page()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "User searches tea pot on google",
-  "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@googlesearch"
-    },
-    {
-      "name": "@teapot"
-    }
-  ]
-});
-formatter.step({
-  "name": "user searches for teapot",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stepdefinitions.GoogleSearchStepDefinitions.user_searches_for_teapot()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "verify the result has teapot",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "stepdefinitions.GoogleSearchStepDefinitions.verify_the_result_has_teapot()"
-});
-formatter.result({
-  "status": "passed"
-});
 formatter.after({
   "status": "passed"
 });
