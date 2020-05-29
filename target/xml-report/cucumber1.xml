@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="30.968">
+<testcase classname="Google search" name="User searches iphone on google" time="17.912">
+<failure message="" type="java.lang.AssertionError"><![CDATA[Given user is on the google page............................................passed
+And user searches for iphone................................................passed
+Then verify the result has iphone...........................................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepdefinitions.GoogleSearchStepDefinitions.verify_the_result_has_iphone(GoogleSearchStepDefinitions.java:27)
+	at ✽.verify the result has iphone(file:///C:/Users/user/IdeaProjects/mycucumberframework/src/test/resources/features/firstfeaturefile.feature:10)
+]]></failure>
+</testcase>
+<testcase classname="Google search" name="User searches tea pot on google" time="11.835">
+<system-out><![CDATA[Given user is on the google page............................................passed
+And user searches for teapot................................................passed
+Then verify the result has teapot...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

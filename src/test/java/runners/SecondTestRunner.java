@@ -6,13 +6,13 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         plugin = {
                 "html:target/default-cucumber-reports",
-                "json:target/json-reports/cucumber.json",
-                "junit:target/xml-report/cucumber.xml"
+                "json:target/json-reports/cucumber2.json",
+                "junit:target/xml-report/cucumber2.xml"
         },
         features ="src/test/resources/features",
         glue = "stepdefinitions",
-        tags = "@googlesearch",
+        tags = "@second",
         dryRun = false
 )
-public class Runner {
+public class SecondTestRunner {
 }

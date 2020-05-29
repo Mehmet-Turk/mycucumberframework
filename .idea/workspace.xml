@@ -2,16 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7afbc825-2a7d-4d01-b16b-a005916a49a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/ExplicitWaitStepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/ExplicitWaitDemo.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/FluentWaitDemo.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/FirstTestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/SecondTestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/SmokeTestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/ThirdTestRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/embedded0.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/embedded0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/Runner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Hooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ExplicitWaitDemo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ExplicitWaitDemo.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Parameterizing.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Parameterizing.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ScenarioOutlineExample1.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ScenarioOutlineExample1.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/firstfeaturefile.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/firstfeaturefile.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/embedded0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/formatter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/jquery-3.4.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/ExplicitWaitDemo.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/FE1200_US2500_google_search_data_tables.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/FluentWaitDemo.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Parameterizing.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/ScenarioOutlineExample.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/ScenarioOutlineExample1.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/ScenarioOutlineExample2.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/fhclogin.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/fhctriplogin.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/firstfeaturefile.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/DataTablesPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/FhcLoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/GoogleSearchPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/Runner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/ExplicitWaitStepDefinitions$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/ExplicitWaitStepDefinitions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/FhcLoginSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/FhcLoginStepsDefinitions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/GoogleSearchStepDefinitions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Hooks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/ScenarioOutlineExampleSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ConfigurationReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/Driver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ReusableMethods.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,22 +157,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1589120892209" />
-    <state width="1323" height="194" key="GridCell.Tab.0.bottom" timestamp="1589329718546">
+    <state width="1323" height="180" key="GridCell.Tab.0.bottom" timestamp="1590025679275">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="194" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589329718546" />
-    <state width="1323" height="194" key="GridCell.Tab.0.center" timestamp="1589329718546">
+    <state width="1323" height="180" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590025679275" />
+    <state width="1323" height="180" key="GridCell.Tab.0.center" timestamp="1590025679275">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="194" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589329718546" />
-    <state width="1323" height="194" key="GridCell.Tab.0.left" timestamp="1589329718546">
+    <state width="1323" height="180" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590025679275" />
+    <state width="1323" height="180" key="GridCell.Tab.0.left" timestamp="1590025679275">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="194" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589329718546" />
-    <state width="1323" height="194" key="GridCell.Tab.0.right" timestamp="1589329718546">
+    <state width="1323" height="180" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590025679275" />
+    <state width="1323" height="180" key="GridCell.Tab.0.right" timestamp="1590025679275">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="194" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589329718546" />
+    <state width="1323" height="180" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590025679275" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1589124553564">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -154,10 +185,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1588524006157" />
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1589119539086">
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1590067262868">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1589119539086" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1590067262868" />
     <state x="65" y="60" key="new project wizard" timestamp="1588522465962">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

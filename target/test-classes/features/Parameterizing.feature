@@ -1,4 +1,4 @@
-@FHCloginParameters
+@FHCloginParameters @Second
 Feature: login feature with parameters
   Scenario: TC01_user should login with manager credentials
     Given user is on the fhctrip login page
