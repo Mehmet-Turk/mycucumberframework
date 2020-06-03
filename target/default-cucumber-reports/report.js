@@ -1,134 +1,107 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/firstfeaturefile.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/JdbcTesting.feature");
 formatter.feature({
-  "name": "Google search",
+  "name": "",
   "description": "",
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@googlesearch"
-    },
-    {
-      "name": "@first"
+      "name": "@db"
     }
   ]
 });
 formatter.background({
-  "name": "User is on the google page",
+  "name": "user is on the google page",
   "description": "",
   "keyword": "Background"
 });
-formatter.before({
-  "status": "passed"
-});
-formatter.before({
-  "status": "passed"
-});
 formatter.step({
-  "name": "user is on the google page",
+  "name": "user connects to the database",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "stepdefinitions.GoogleSearchStepDefinitions.user_is_on_the_google_page()"
+  "location": "DBSteps.DBStepDefinitions.user_connects_to_the_database()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "User searches iphone on google",
+  "name": "TC01_User verified the table data",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@googlesearch"
-    },
-    {
-      "name": "@first"
-    },
-    {
-      "name": "@iphone"
+      "name": "@db"
     }
   ]
 });
 formatter.step({
-  "name": "user searches for iphone",
+  "name": "user connects the Book Table",
   "keyword": "And "
 });
 formatter.match({
-  "location": "stepdefinitions.GoogleSearchStepDefinitions.user_searches_for_iphone()"
+  "location": "DBSteps.DBStepDefinitions.user_connects_the_Book_Table()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "verify the result has iphone",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "stepdefinitions.GoogleSearchStepDefinitions.verify_the_result_has_iphone()"
-});
-formatter.result({
-  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat stepdefinitions.GoogleSearchStepDefinitions.verify_the_result_has_iphone(GoogleSearchStepDefinitions.java:27)\r\n\tat ✽.verify the result has iphone(file:///C:/Users/user/IdeaProjects/mycucumberframework/src/test/resources/features/firstfeaturefile.feature:10)\r\n",
-  "status": "failed"
-});
-formatter.embedding("image/png", "embedded0.png", null);
-formatter.after({
-  "status": "passed"
-});
-formatter.background({
-  "name": "User is on the google page",
-  "description": "",
-  "keyword": "Background"
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user is on the google page",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "stepdefinitions.GoogleSearchStepDefinitions.user_is_on_the_google_page()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "User searches tea pot on google",
-  "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@googlesearch"
-    },
-    {
-      "name": "@first"
-    },
-    {
-      "name": "@teapot"
-    }
-  ]
-});
-formatter.step({
-  "name": "user searches for teapot",
+  "name": "prints the first value on BookName",
   "keyword": "And "
 });
 formatter.match({
-  "location": "stepdefinitions.GoogleSearchStepDefinitions.user_searches_for_teapot()"
+  "location": "DBSteps.DBStepDefinitions.prints_the_first_value_on_BookName()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "verify the result has teapot",
-  "keyword": "Then "
+  "name": "print the BookName values on the Book Table",
+  "keyword": "And "
 });
 formatter.match({
-  "location": "stepdefinitions.GoogleSearchStepDefinitions.verify_the_result_has_teapot()"
+  "location": "DBSteps.DBStepDefinitions.print_the_BookName_values_on_the_Book_Table()"
 });
 formatter.result({
   "status": "passed"
 });
-formatter.after({
+formatter.step({
+  "name": "print the total row count",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "DBSteps.DBStepDefinitions.print_the_total_row_count()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "verify the 5th value is Java",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "DBSteps.DBStepDefinitions.verify_the_5th_value_is_Java()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "verify the 1st value is SQL",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "DBSteps.DBStepDefinitions.verify_the_1st_value_is_SQL()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "verify the last value is UIPath",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "DBSteps.DBStepDefinitions.verify_the_last_value_is_UIPath()"
+});
+formatter.result({
   "status": "passed"
 });
 });

@@ -1,0 +1,143 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "user is on the google page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3772000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user connects to the database",
+            "match": {
+              "location": "DBSteps.DBStepDefinitions.user_connects_to_the_database()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-03T02:04:46.884Z",
+        "line": 5,
+        "name": "TC01_User verified the table data",
+        "description": "",
+        "id": ";tc01-user-verified-the-table-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 179000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user connects the Book Table",
+            "match": {
+              "location": "DBSteps.DBStepDefinitions.user_connects_the_Book_Table()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "prints the first value on BookName",
+            "match": {
+              "location": "DBSteps.DBStepDefinitions.prints_the_first_value_on_BookName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "print the BookName values on the Book Table",
+            "match": {
+              "location": "DBSteps.DBStepDefinitions.print_the_BookName_values_on_the_Book_Table()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "print the total row count",
+            "match": {
+              "location": "DBSteps.DBStepDefinitions.print_the_total_row_count()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify the 5th value is Java",
+            "match": {
+              "location": "DBSteps.DBStepDefinitions.verify_the_5th_value_is_Java()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verify the 1st value is SQL",
+            "match": {
+              "location": "DBSteps.DBStepDefinitions.verify_the_1st_value_is_SQL()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "verify the last value is UIPath",
+            "match": {
+              "location": "DBSteps.DBStepDefinitions.verify_the_last_value_is_UIPath()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@db"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/JdbcTesting.feature",
+    "tags": [
+      {
+        "name": "@db",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

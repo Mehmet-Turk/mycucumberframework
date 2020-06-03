@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="5.216">
+<testcase classname="" name="TC01_User verified the table data" time="4.106">
+<system-out><![CDATA[Given user connects to the database.........................................passed
+And user connects the Book Table............................................passed
+And prints the first value on BookName......................................passed
+And print the BookName values on the Book Table.............................passed
+And print the total row count...............................................passed
+And verify the 5th value is Java............................................passed
+And verify the 1st value is SQL.............................................passed
+And verify the last value is UIPath.........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

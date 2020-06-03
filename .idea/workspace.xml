@@ -2,47 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7afbc825-2a7d-4d01-b16b-a005916a49a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/FirstTestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/SecondTestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/SmokeTestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/ThirdTestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DBSteps/DBStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/DBTestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/JdbcTesting.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ExplicitWaitDemo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ExplicitWaitDemo.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Parameterizing.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Parameterizing.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ScenarioOutlineExample1.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ScenarioOutlineExample1.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/firstfeaturefile.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/firstfeaturefile.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/embedded0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/formatter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/jquery-3.4.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/ExplicitWaitDemo.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/FE1200_US2500_google_search_data_tables.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/FluentWaitDemo.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Parameterizing.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/ScenarioOutlineExample.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/ScenarioOutlineExample1.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/ScenarioOutlineExample2.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/fhclogin.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/fhctriplogin.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/firstfeaturefile.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/DataTablesPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/FhcLoginPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/GoogleSearchPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/Runner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/ExplicitWaitStepDefinitions$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/ExplicitWaitStepDefinitions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/FhcLoginSteps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/FhcLoginStepsDefinitions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/GoogleSearchStepDefinitions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Hooks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/ScenarioOutlineExampleSteps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ConfigurationReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/Driver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ReusableMethods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +32,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1bOyUaqW9Lx4vHMEXDlSpRgxkX2" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -81,7 +48,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="JUnit.Runner">
+  <component name="RunManager" selected="JUnit.DBTestRunner">
     <configuration name="Scenario: Fluent wait example" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/FluentWaitDemo.feature" />
@@ -97,6 +64,21 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DBTestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mycucumberframework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.DBTestRunner" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -118,6 +100,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DBTestRunner" />
         <item itemvalue="JUnit.Runner" />
         <item itemvalue="Cucumber java.Scenario: Fluent wait example" />
       </list>
@@ -145,10 +128,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="23" key="#Plugins/0.0.1366.728@0.0.1366.728" timestamp="1589120177080" />
-    <state x="413" y="120" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1588725725675">
+    <state x="413" y="120" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1591148406734">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="120" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1588725725675" />
+    <state x="413" y="120" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1591148406734" />
     <state x="411" y="168" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588520611746">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -157,22 +140,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1589120892209" />
-    <state width="1323" height="180" key="GridCell.Tab.0.bottom" timestamp="1590025679275">
+    <state width="1323" height="152" key="GridCell.Tab.0.bottom" timestamp="1591150495243">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="180" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590025679275" />
-    <state width="1323" height="180" key="GridCell.Tab.0.center" timestamp="1590025679275">
+    <state width="1323" height="152" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591150495243" />
+    <state width="1323" height="152" key="GridCell.Tab.0.center" timestamp="1591150495243">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="180" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590025679275" />
-    <state width="1323" height="180" key="GridCell.Tab.0.left" timestamp="1590025679275">
+    <state width="1323" height="152" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1591150495243" />
+    <state width="1323" height="152" key="GridCell.Tab.0.left" timestamp="1591150495243">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="180" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590025679275" />
-    <state width="1323" height="180" key="GridCell.Tab.0.right" timestamp="1590025679275">
+    <state width="1323" height="152" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1591150495243" />
+    <state width="1323" height="152" key="GridCell.Tab.0.right" timestamp="1591150495243">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="180" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590025679275" />
+    <state width="1323" height="152" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591150495243" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1589124553564">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
